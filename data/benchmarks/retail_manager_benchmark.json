@@ -1,0 +1,25 @@
+{
+  "note": "Researcher-created reference answer. This is not an objective hiring decision.",
+  "case_id": "RM001",
+  "mandatory_requirements": [
+    {"id": "M1", "requirement": "5+ years retail management experience", "source_evidence": "'5+ years retail management experience' (job description)"},
+    {"id": "M2", "requirement": "Proven people management and rostering skills", "source_evidence": "'Proven people management and rostering skills' (job description)"},
+    {"id": "M3", "requirement": "Experience managing stock and inventory systems", "source_evidence": "'Experience managing stock and inventory systems' (job description)"},
+    {"id": "M4", "requirement": "Ability to achieve sales targets and produce weekly sales reports", "source_evidence": "'Ability to achieve sales targets and produce weekly sales reports' (job description)"}
+  ],
+  "preferred_requirements": [
+    {"id": "P1", "requirement": "Experience with point-of-sale (POS) systems", "source_evidence": "'Experience with point-of-sale (POS) systems' (job description)"},
+    {"id": "P2", "requirement": "Experience running local marketing or community engagement", "source_evidence": "'Experience running local marketing or community engagement' (job description)"}
+  ],
+  "requirement_matches": [
+    {"requirement_id": "M1", "status": "matched", "candidate_evidence": "'3 years as assistant store manager and 2 years running a small independent boutique (total 5 years)'", "reason": "Combined experience meets 5 years requirement"},
+    {"requirement_id": "M2", "status": "matched", "candidate_evidence": "'Managed teams of 6–10 staff, created rosters'", "reason": "Direct people management and rostering evidence"},
+    {"requirement_id": "M3", "status": "partially_matched", "candidate_evidence": "'handled stock ordering using a simple inventory spreadsheet'", "reason": "Inventory experience exists but not with formal inventory systems"},
+    {"requirement_id": "M4", "status": "partially_matched", "candidate_evidence": "'ran occasional local promotions'", "reason": "Some sales activity but no documented weekly sales reporting or consistent target achievement evidence"},
+    {"requirement_id": "P1", "status": "not_matched", "candidate_evidence": null, "reason": "No formal POS system experience beyond basic till operation"},
+    {"requirement_id": "P2", "status": "matched", "candidate_evidence": "'ran occasional local promotions'", "reason": "Local marketing/community engagement evidence present"}
+  ],
+  "missing_evidence": [
+    {"requirement_id": "P1", "reason": "No formal POS system experience described"}
+  ]
+}

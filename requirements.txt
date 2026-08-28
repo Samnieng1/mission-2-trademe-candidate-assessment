@@ -1,0 +1,10 @@
+streamlit
+openai
+httpx
+pydantic
+python-dotenv
+pandas
+pytest
+python-docx
+pdfminer.six
+huggingface_hub

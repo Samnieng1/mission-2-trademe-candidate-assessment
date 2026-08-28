@@ -1,0 +1,25 @@
+{
+  "note": "Researcher-created reference answer. This is not an objective hiring decision.",
+  "case_id": "RN001",
+  "mandatory_requirements": [
+    {"id": "M1", "requirement": "Current Registered Nurse (RN) licence/certification", "source_evidence": "'Current Registered Nurse (RN) licence/certification' (job description)"},
+    {"id": "M2", "requirement": "Minimum 2 years recent clinical nursing experience", "source_evidence": "'Minimum 2 years recent clinical nursing experience' (job description)"},
+    {"id": "M3", "requirement": "Experience with medication administration and IV therapy", "source_evidence": "'Experience with medication administration and IV therapy' (job description)"},
+    {"id": "M4", "requirement": "Ability to manage multiple acute patients and escalate appropriately", "source_evidence": "'Ability to manage multiple acute patients and escalate appropriately' (job description)"}
+  ],
+  "preferred_requirements": [
+    {"id": "P1", "requirement": "Experience with electronic medical record systems", "source_evidence": "'Experience with electronic medical record systems' (job description)"},
+    {"id": "P2", "requirement": "Experience in wound care and pressure-area management", "source_evidence": "'Experience in wound care and pressure-area management' (job description)"}
+  ],
+  "requirement_matches": [
+    {"requirement_id": "M1", "status": "matched", "candidate_evidence": "'The candidate is a registered nurse with a current RN licence'", "reason": "Explicit licence present"},
+    {"requirement_id": "M2", "status": "partially_matched", "candidate_evidence": "'Worked 18 months in a community clinic; 4-month hospital secondment'", "reason": "Total clinical time is 22 months; slightly below 2 years recent inpatient ward experience expectation"},
+    {"requirement_id": "M3", "status": "partially_matched", "candidate_evidence": "'regularly performed medication reviews and administered injections; limited IV experience during a 4-month hospital secondment'", "reason": "Medication administration evidence clear; IV therapy experience limited"},
+    {"requirement_id": "M4", "status": "matched", "candidate_evidence": "'regularly performed medication reviews and managed chronic-disease patients; evidence of teamwork and escalation in clinic'", "reason": "Shows ability to manage multiple patients and escalate"},
+    {"requirement_id": "P1", "status": "matched", "candidate_evidence": "'Has used an EMR at the clinic for patient notes'", "reason": "Direct evidence of EMR use"},
+    {"requirement_id": "P2", "status": "not_matched", "candidate_evidence": null, "reason": "No specific wound-care or pressure-area management evidence provided"}
+  ],
+  "missing_evidence": [
+    {"requirement_id": "P2", "reason": "No explicit wound-care or pressure-area management evidence found in profile"}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "note": "Researcher-created reference answer. This is not an objective hiring decision.",
+  "case_id": "SD001",
+  "mandatory_requirements": [
+    {"id": "M1", "requirement": "3+ years of commercial software development experience using Python or Java", "source_evidence": "'3+ years of commercial software development experience using Python or Java' (job description)"},
+    {"id": "M2", "requirement": "Experience designing and consuming RESTful APIs", "source_evidence": "'designing and consuming RESTful APIs' (job description)"},
+    {"id": "M3", "requirement": "Demonstrable knowledge of SQL and relational databases", "source_evidence": "'Demonstrable knowledge of SQL and relational databases' (job description)"},
+    {"id": "M4", "requirement": "Familiarity with unit and integration testing practices", "source_evidence": "'Familiarity with unit and integration testing practices' (job description)"},
+    {"id": "M5", "requirement": "Right to work in New Zealand (eligibility)", "source_evidence": "'Right to work in New Zealand' (job description)"}
+  ],
+  "preferred_requirements": [
+    {"id": "P1", "requirement": "Experience with Microsoft Azure (App Services, Functions or AKS)", "source_evidence": "'Experience with Microsoft Azure' (job description)"},
+    {"id": "P2", "requirement": "Familiarity with Docker and Kubernetes", "source_evidence": "'Familiarity with Docker and Kubernetes' (job description)"}
+  ],
+  "requirement_matches": [
+    {"requirement_id": "M1", "status": "matched", "candidate_evidence": "'4 years experience at a small SaaS firm building Python-based backend services'", "reason": "Candidate has 4 years commercial Python backend experience"},
+    {"requirement_id": "M2", "status": "matched", "candidate_evidence": "'Implemented REST APIs for subscription billing'", "reason": "Direct evidence of API design and consumption"},
+    {"requirement_id": "M3", "status": "matched", "candidate_evidence": "'wrote SQL queries and schema migrations for PostgreSQL'", "reason": "Clear relational DB experience"},
+    {"requirement_id": "M4", "status": "matched", "candidate_evidence": "'introduced unit tests using pytest'", "reason": "Explicit testing practice evidence"},
+    {"requirement_id": "M5", "status": "matched", "candidate_evidence": "'Holds permanent residency enabling right to work'", "reason": "Explicit eligibility stated"},
+    {"requirement_id": "P1", "status": "partially_matched", "candidate_evidence": "'familiar with cloud platforms including Azure'", "reason": "Candidate claims familiarity but no production AKS or deep Azure service evidence"},
+    {"requirement_id": "P2", "status": "partially_matched", "candidate_evidence": "'Familiar with Docker; contributed to team evaluation of Kubernetes but no production AKS deployments'", "reason": "Docker experience present; Kubernetes limited"}
+  ],
+  "missing_evidence": []
+}

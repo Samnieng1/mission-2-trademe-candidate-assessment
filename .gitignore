@@ -1,0 +1,13 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.cache/
+results/
+*.sqlite
+.venv\
+.venv\Scripts\
+.venv\Lib\
+.mypy_cache/
+.coverage
+coverage.xml
